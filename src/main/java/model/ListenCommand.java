@@ -38,6 +38,6 @@ public class ListenCommand extends PanacheEntity {
      if(list.size() >= 1){
         return list.get(list.size()-1).getCommand(); 
      }
-     return userId;
+     return "Não há comandos";
     }    
 }
